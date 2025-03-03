@@ -4,7 +4,7 @@ if(!sign){
 }
 else if (sign = "ADMIN"){
     let pass = prompt("Enter pass: ");
-    if (pass = "TheMaster") {
+    if (pass == "TheMaster") {
         alert("Welcome");
     }
     else if (pass) {
