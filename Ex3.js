@@ -7,7 +7,7 @@ else if (sign = "ADMIN"){
     if (pass == "TheMaster") {
         alert("Welcome");
     }
-    else if (pass) {
+    else if (pass.length==0) {
         alert("Cancelled");
     }
     else{
